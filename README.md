@@ -1,8 +1,8 @@
-# Ukiyo for T3 Code
+# karazuri for T3 Code
 
-The Ukiyo color theme for [T3 Code](https://github.com/pingdotgg/t3code).
+The karazuri color theme for [T3 Code](https://github.com/pingdotgg/t3code).
 
-[View the palette](https://ukiyo-theme.github.io/palette/)
+[View the palette](https://karazuri.github.io/palette/)
 
 ## Variants
 
@@ -10,8 +10,8 @@ Each T3 Code theme pairs a dark variant with a light variant.
 
 | Theme | Theme file | Dark variant | Light variant |
 |---|---|---|---|
-| Ukiyo | [ukiyo.json](themes/ukiyo.json) | Umi | Kami |
-| Ukiyo Yoru | [ukiyo-yoru.json](themes/ukiyo-yoru.json) | Yoru | Kami |
+| karazuri | [karazuri.json](themes/karazuri.json) | Umi | Kami |
+| karazuri Yoru | [karazuri-yoru.json](themes/karazuri-yoru.json) | Yoru | Kami |
 
 | Variant | Background | Description |
 |---|---|---|
@@ -21,33 +21,33 @@ Each T3 Code theme pairs a dark variant with a light variant.
 
 ### Umi
 
-![Umi palette preview](https://raw.githubusercontent.com/ukiyo-theme/palette/main/assets/umi.svg)
+![Umi palette preview](https://raw.githubusercontent.com/karazuri/palette/main/assets/umi.svg)
 
 ### Yoru
 
-![Yoru palette preview](https://raw.githubusercontent.com/ukiyo-theme/palette/main/assets/yoru.svg)
+![Yoru palette preview](https://raw.githubusercontent.com/karazuri/palette/main/assets/yoru.svg)
 
 ### Kami
 
-![Kami palette preview](https://raw.githubusercontent.com/ukiyo-theme/palette/main/assets/kami.svg)
+![Kami palette preview](https://raw.githubusercontent.com/karazuri/palette/main/assets/kami.svg)
 
 ## How to use
 
-1. From this repository, copy the theme file you want to `~/.t3/userdata/themes/`. For Ukiyo, run the following commands. For Ukiyo Yoru, use `ukiyo-yoru.json` in both paths.
+1. From this repository, copy the theme file you want to `~/.t3/userdata/themes/`. For karazuri, run the following commands. For karazuri Yoru, use `karazuri-yoru.json` in both paths.
 
    ```sh
    mkdir -p ~/.t3/userdata/themes
-   cp themes/ukiyo.json ~/.t3/userdata/themes/ukiyo.json
+   cp themes/karazuri.json ~/.t3/userdata/themes/karazuri.json
    ```
 
-2. Open T3 Code settings and select **Ukiyo** or **Ukiyo Yoru**.
+2. Open T3 Code settings and select **karazuri** or **karazuri Yoru**.
 3. The selected theme follows the app's appearance. Dark mode uses Umi or Yoru, depending on the theme. Light mode uses Kami in both themes.
 
-You can also ask the T3 Code agent to install `themes/ukiyo.json` as the `ukiyo` theme.
+You can also ask the T3 Code agent to install `themes/karazuri.json` as the `karazuri` theme.
 
 ## Regenerating the themes
 
-The files in `themes/` are generated from `palette.json` in [ukiyo-theme/palette](https://github.com/ukiyo-theme/palette). Make color changes in the palette repository and regenerate the theme files with the following command.
+The files in `themes/` are generated from `palette.json` in [karazuri/palette](https://github.com/karazuri/palette). Make color changes in the palette repository and regenerate the theme files with the following command.
 
 ```sh
 python3 ../palette/scripts/build.py t3code --out .
